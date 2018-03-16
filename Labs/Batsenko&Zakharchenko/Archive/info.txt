@@ -1,0 +1,47 @@
+do it inside project folder:
+C++
+1)run multiple threads program (3 - amount of threads )
+g++ -std=c++14 -Og -pthread using_threads.cpp -o multiple_threads && ./multiple_threads 3
+
+(3- number of threads, -10 - 10 range of x, -11 11 range of y, 3 - m from formula, 1 2 3 - a1 parameters, 4 5 6 - a2 parameters, 7 8 9 - c parameters,  1000 - (optional) number of distances, by which we divide plot for integral)
+g++ -std=c++14 -Og -pthread using_threads.cpp -o multiple_threads && ./multiple_threads 3 -10 10 -11 11 3 1 2 3 4 5 6 7 8 9 1000
+(3 - number of treads, 1000 - number of distances, by which we divide plot for integral)
+g++ -std=c++14 -Og -pthread using_threads.cpp -o multiple_threads && ./multiple_threads 3 1000
+
+2)run single thread program
+g++ -std=c++14 -Og -pthread single_thread.cpp -o single_thread && ./single_thread
+
+
+do it inside project folder:
+Python
+1) to run it just type in terminal:
+python3 runer.py
+
+To define params go to config.json and see the following:
+{
+    "errors":{
+        "abs":0.03,  // absolute error
+        "rel":0.003  // relative error
+    },
+    "threads":"4",   // number of threads
+    "intervals":{
+        "x_start":"",  // start of the x integration
+        "x_finish":"", // finish of the x integration
+        "y_start":"",  // start of the y integration
+        "y_finish":""  // finish of the y integration
+    },
+    "params":{
+        "m":"",       // m in function formula
+        "a1":[],      // a1 - array of a1's of size m in function formula
+        "a2":[],      // a2 - array of a2's of size m in function formula
+        "c" :[]       // c - array of c's of size m in function formula
+    },
+
+    "max_iterations_num":20,    // maximum amount of doubling delta - amount of interations
+    "delta":300                 // the amount of intervals on which we split x and y axises
+}
+
+* If you want to skip a parameter just leave it empty: "" or []
+
+Plot - to see the threads/time  plot open the link:
+https://docs.google.com/spreadsheets/d/184blKEqNY-KxsxJ9pE0UmJjo_XMPZNdamBmoDWKJ9vg/edit?usp=sharing

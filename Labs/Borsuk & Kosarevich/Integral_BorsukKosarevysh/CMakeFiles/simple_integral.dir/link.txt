@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/simple_integral.dir/simple_integral.cpp.o CMakeFiles/simple_integral.dir/getconfig.cpp.o  -o simple_integral 

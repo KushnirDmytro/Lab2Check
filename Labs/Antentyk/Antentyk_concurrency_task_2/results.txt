@@ -1,0 +1,18 @@
+Consecutive: 357118
+1 thread(s): 358685
+2 thread(s): 188989
+3 thread(s): 136482
+4 thread(s): 118684
+5 thread(s): 133182
+6 thread(s): 117284
+7 thread(s): 115525
+8 thread(s): 118663
+9 thread(s): 111958
+10 thread(s): 116483
+50 thread(s): 122442
+100 thread(s): 119699
+200 thread(s): 128573
+500 thread(s): 163737
+1000 thread(s): 219292
+1500 thread(s): 324700
+2000 thread(s): 432086

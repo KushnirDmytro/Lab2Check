@@ -1,0 +1,1 @@
+g++ Integrals.cpp -o Integrals -pthread -std=c++14 -O3

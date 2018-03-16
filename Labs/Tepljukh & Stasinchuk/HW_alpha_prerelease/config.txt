@@ -1,0 +1,9 @@
+4<-thread number
+0.001<-absolute error
+0.001<-relative error
+-50<-min x
+50<-max x
+-50<-min y
+50<-max y
+200<-init iterations
+16000<-max iterations 

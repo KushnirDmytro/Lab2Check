@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Oles/CLionProjects/threads/main.cpp
+iostream
+-
+chrono
+-
+atomic
+-
+fstream
+-
+math.h
+-
+thread
+-
+mutex
+-
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/d1md1m/CLionProjects/Labs/Lab2/Hirna/MarichkaTriesCpp/main.cpp
+iostream
+-
+stdlib.h
+-
+math.h
+-
+chrono
+-
+atomic
+-
+thread
+-
+vector
+-
+mutex
+-
+

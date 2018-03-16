@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/getconfig.cpp
+getconfig.h
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/getconfig.h
+
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/getconfig.h
+iostream
+-
+utility
+-
+string
+-
+sstream
+-
+map
+-
+fstream
+-
+
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/simple_integral.cpp
+iostream
+-
+iomanip
+-
+math.h
+-
+chrono
+-
+atomic
+-
+utility
+-
+getconfig.h
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/getconfig.h
+

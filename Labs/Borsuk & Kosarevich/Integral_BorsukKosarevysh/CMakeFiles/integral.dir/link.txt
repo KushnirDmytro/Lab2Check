@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/integral.dir/integral.cpp.o CMakeFiles/integral.dir/getconfig.cpp.o  -o integral -lpthread 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/d1md1m/CLionProjects/Labs/Lab2/Kozak/Kozak/main.cpp
+iostream
+-
+chrono
+-
+atomic
+-
+fstream
+-
+math.h
+-
+thread
+-
+mutex
+-
+

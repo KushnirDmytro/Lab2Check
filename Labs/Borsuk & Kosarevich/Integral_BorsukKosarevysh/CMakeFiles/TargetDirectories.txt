@@ -1,0 +1,4 @@
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/CMakeFiles/rebuild_cache.dir
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/CMakeFiles/edit_cache.dir
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/CMakeFiles/simple_integral.dir
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Borsuk & Kosarevich/Integral_BorsukKosarevysh/CMakeFiles/integral.dir

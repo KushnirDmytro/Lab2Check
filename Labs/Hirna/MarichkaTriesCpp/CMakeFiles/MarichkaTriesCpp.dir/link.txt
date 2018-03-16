@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/MarichkaTriesCpp.dir/main.cpp.o  -o MarichkaTriesCpp 

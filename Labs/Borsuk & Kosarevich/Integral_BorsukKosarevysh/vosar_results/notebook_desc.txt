@@ -1,0 +1,7 @@
+Intel® Core™ i3-2370M Processor
+Frequency : 2.4 GHz
+# of Cores : 2
+Hyperthreading : Yes
+Cache : 3MB
+Bus Speed : 5 GT/s DMI
+

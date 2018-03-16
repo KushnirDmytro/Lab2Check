@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -static-libgcc -static-libstdc++ -O3   CMakeFiles/integral.dir/integral.cpp.o  -o integral -lpthread 

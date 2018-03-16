@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>chart created with amCharts | amCharts</title>
+		<meta name="description" content="chart created using amCharts live editor" />
+		
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
+		
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("chartdiv",
+				{
+					"type": "serial",
+					"categoryField": "category",
+					"startDuration": 1,
+					"theme": "black",
+					"categoryAxis": {
+						"gridPosition": "start"
+					},
+					"chartCursor": {
+						"enabled": true
+					},
+					"chartScrollbar": {
+						"enabled": true
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"fillAlphas": 1,
+							"id": "AmGraph-1",
+							"title": "graph 1",
+							"type": "column",
+							"valueField": "column-1"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"title": "Microseconds spent"
+						}
+					],
+					"allLabels": [],
+					"balloon": {
+						"cornerRadius": 2,
+						"horizontalPadding": 10
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Threads number"
+						}
+					],
+					"dataProvider": [
+						{
+							"category": "Consecutive",
+							"column-1": "626387"
+						},
+						{
+							"category": "1",
+							"column-1": "597352"
+						},
+						{
+							"category": "2",
+							"column-1": "284927"
+						},
+						{
+							"category": "3",
+							"column-1": "130064"
+						},
+						{
+							"category": "4",
+							"column-1": "160617"
+						},
+						{
+							"category": "5",
+							"column-1": "146948"
+						},
+						{
+							"category": "6",
+							"column-1": "93799"
+						},
+						{
+							"category": "7",
+							"column-1": "90821"
+						},
+						{
+							"category": "8",
+							"column-1": "107336"
+						},
+						{
+							"category": "9",
+							"column-1": "93075"
+						},
+						{
+							"category": "10",
+							"column-1": "105618"
+						},
+						{
+							"category": "50",
+							"column-1": "95701"
+						},
+						{
+							"category": "100",
+							"column-1": "97646"
+						},
+						{
+							"category": "200",
+							"column-1": "101727"
+						},
+						{
+							"category": "500",
+							"column-1": "144145"
+						},
+						{
+							"category": "1000",
+							"column-1": "202101"
+						},
+						{
+							"category": "1500",
+							"column-1": "300827"
+						},
+						{
+							"category": "2000",
+							"column-1": "417085"
+						}
+					]
+				}
+			);
+		</script>
+	</head>
+	<body>
+		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #222222;" ></div>
+	</body>
+</html>

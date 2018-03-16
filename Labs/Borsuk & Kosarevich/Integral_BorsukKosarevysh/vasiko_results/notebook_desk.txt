@@ -1,0 +1,7 @@
+Intel® Core™ i5-7200U Processor
+Frequency : 2.5-3,1 GHz
+# of Cores : 2
+Hyperthreading : Yes
+Cache : 3 MB SmartCache
+Bus Speed : 4 GT/s OPI
+

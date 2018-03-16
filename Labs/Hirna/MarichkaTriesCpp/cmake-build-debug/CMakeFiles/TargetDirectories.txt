@@ -1,0 +1,3 @@
+C:/Users/Mary/CLionProjects/MarichkaTriesCpp/cmake-build-debug/CMakeFiles/MarichkaTriesCpp.dir
+C:/Users/Mary/CLionProjects/MarichkaTriesCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mary/CLionProjects/MarichkaTriesCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

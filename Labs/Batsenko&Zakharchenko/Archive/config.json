@@ -1,0 +1,22 @@
+{
+    "errors":{
+        "abs":0.03,
+        "rel":0.003
+    },
+    "threads":"4",
+    "intervals":{
+        "x_start":"",
+        "x_finish":"",
+        "y_start":"",
+        "y_finish":""
+    },
+    "params":{
+        "m":"",
+        "a1":[],
+        "a2":[],
+        "c" :[]
+    },
+
+    "max_iterations_num":20,
+    "delta":300
+}

@@ -1,0 +1,22 @@
+{
+    "errors":{
+        "abs":0.02,
+        "rel":0.002
+    },
+    "threads":"3",
+    "intervals":{
+        "x_start":"-10",
+        "x_finish":"10",
+        "y_start":"-10",
+        "y_finish":"10"
+    },
+    "params":{
+        "m":"3",
+        "a1":["1", "2", "3"],
+        "a2":["4", "5", "6"],
+        "c" :["7", "8", "9"]
+    },
+
+    "max_iterations_num":20,
+    "delta":500
+}

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/d1md1m/CLionProjects/Labs/Lab2/Tepljukh & Stasinchuk/HW_alpha_prerelease/main.cpp
+iostream
+-
+thread
+-
+mutex
+-
+vector
+-
+fstream
+-
+iomanip
+-
+cmath
+-
+fstream
+-
+string
+-
+sstream
+-
+

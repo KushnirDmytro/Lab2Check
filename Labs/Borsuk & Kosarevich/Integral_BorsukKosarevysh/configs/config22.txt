@@ -1,0 +1,13 @@
+alpha=0.001
+relalpha=0.001
+# min and max values of x and y
+xrange=-10 10
+yrange=-10 10
+# number of segments
+xdelta=200
+ydelta=200
+# function parameters
+m=5
+a1=100 200 300 400 500
+a2=500 400 300 200 100
+c=2 4 8 16 32

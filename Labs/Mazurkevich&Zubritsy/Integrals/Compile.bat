@@ -1,0 +1,1 @@
+g++ Integrals.cpp -o Integrals -O3
