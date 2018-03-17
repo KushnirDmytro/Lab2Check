@@ -116,6 +116,7 @@ int main(int argc, char* argv[]) {
             break;
         }
         ++counter;
+		std::cout << '.' << std::flush;
         
         if(old_result != 0){
             if((double)old_result/(double)global_result > 1-relative_error || (double)global_result/(double)old_result > 1-relative_error){

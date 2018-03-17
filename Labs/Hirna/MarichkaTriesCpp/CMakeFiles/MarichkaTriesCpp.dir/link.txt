@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/MarichkaTriesCpp.dir/main.cpp.o  -o MarichkaTriesCpp 
+/usr/bin/c++  -O3 -Wall -Wextra -pthread   CMakeFiles/MarichkaTriesCpp.dir/main.cpp.o  -o MarichkaTriesCpp 
