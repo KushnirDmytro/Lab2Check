@@ -27,5 +27,5 @@ for el in results:
         if time < min_time:
             min_time = time
 
-#print("cheked results = ", checked_results)
+print("cheked results = ", checked_results)
 print("min_time = ", min_time)

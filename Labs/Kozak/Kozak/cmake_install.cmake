@@ -1,4 +1,4 @@
-# Install script for directory: /home/d1md1m/CLionProjects/Labs/Lab2/Kozak/Kozak
+# Install script for directory: /home/d1md1m/CLionProjects/Lab2Check/Labs/Kozak/Kozak
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/d1md1m/CLionProjects/Labs/Lab2/Kozak/Kozak/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/d1md1m/CLionProjects/Lab2Check/Labs/Kozak/Kozak/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

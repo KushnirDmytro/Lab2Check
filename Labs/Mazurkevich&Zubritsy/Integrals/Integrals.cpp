@@ -1,7 +1,7 @@
 #include <iostream>
 #include <chrono>
 #include <atomic>
-#include "math.h"
+#include "cmath"
 #include <thread>
 #include <mutex>
 #include <vector>

@@ -1,6 +1,6 @@
 Для компіляції: 
-$ g++ -std=c++14 -pthread -O3 integr_main.cpp
-$ g++ -std=c++14 -O3 sequential.cpp
+$ g++ -std=c++14 -pthread -O3 integr_main.cpp -0 a
+$ g++ -std=c++14 -O3 sequential.cpp -o s
 
 Для тестування:
 $ python run.py

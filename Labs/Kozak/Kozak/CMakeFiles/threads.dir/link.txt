@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/threads.dir/main.cpp.o  -o threads 
+/usr/bin/c++  -O3 -Wall -Wextra -pthread   CMakeFiles/threads.dir/main.cpp.o  -o threads 

@@ -196,7 +196,7 @@ int main(int argc, char* argv[]){
     bool to_continue = true;
     double abs_err = -1; // Just guard value
     double rel_err = -1; // Just guard value
-//#define PRINT_INTERMEDIATE_STEPS
+#define PRINT_INTERMEDIATE_STEPS
 
     while( to_continue ) {
 #ifdef PRINT_INTERMEDIATE_STEPS

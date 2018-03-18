@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/d1md1m/CLionProjects/Labs/Lab2/Kozak/Kozak/main.cpp
+/home/d1md1m/CLionProjects/Lab2Check/Labs/Kozak/Kozak/main.cpp
 iostream
 -
 chrono
