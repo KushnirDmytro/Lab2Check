@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/d1md1m/CLionProjects/Labs/Lab2/Ursul/task/integral.cpp" "/home/d1md1m/CLionProjects/Labs/Lab2/Ursul/task/CMakeFiles/integral.dir/integral.cpp.o"
+  "/home/d1md1m/CLionProjects/Lab2Check/Labs/Ursul/task/integral.cpp" "/home/d1md1m/CLionProjects/Lab2Check/Labs/Ursul/task/CMakeFiles/integral.dir/integral.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

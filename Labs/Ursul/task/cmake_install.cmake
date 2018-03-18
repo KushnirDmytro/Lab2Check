@@ -1,4 +1,4 @@
-# Install script for directory: /home/d1md1m/CLionProjects/Labs/Lab2/Ursul/task
+# Install script for directory: /home/d1md1m/CLionProjects/Lab2Check/Labs/Ursul/task
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/d1md1m/CLionProjects/Labs/Lab2/Ursul/task/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/d1md1m/CLionProjects/Lab2Check/Labs/Ursul/task/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

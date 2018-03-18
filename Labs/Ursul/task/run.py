@@ -11,7 +11,7 @@ thread_fname = base_dir + "integral"
 if platform().startswith("Windows"):
     thread_fname = thread_fname.replace("/","\\") + ".exe"
     
-config_fname = "cfgs\config.ini"
+config_fname = "cfgs/config.ini"
 
 
 class CppException(Exception):

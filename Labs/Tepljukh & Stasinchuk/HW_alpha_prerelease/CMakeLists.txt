@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_CXX_FLAGS "-O3 -Wall -Wextra")
+set(CMAKE_CXX_FLAGS "-O3 -Wall -Wextra -pthread")
 message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
 set(SOURCE_FILES main.cpp)
 file(APPEND "config.txt" "")

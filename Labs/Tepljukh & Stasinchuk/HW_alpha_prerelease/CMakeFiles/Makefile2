@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/d1md1m/CLionProjects/Labs/Lab2/Tepljukh & Stasinchuk/HW_alpha_prerelease"
+CMAKE_SOURCE_DIR = "/home/d1md1m/CLionProjects/Lab2Check/Labs/Tepljukh & Stasinchuk/HW_alpha_prerelease"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/d1md1m/CLionProjects/Labs/Lab2/Tepljukh & Stasinchuk/HW_alpha_prerelease"
+CMAKE_BINARY_DIR = "/home/d1md1m/CLionProjects/Lab2Check/Labs/Tepljukh & Stasinchuk/HW_alpha_prerelease"
 
 #=============================================================================
 # Target rules for target CMakeFiles/paralel_integrals.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = "/home/d1md1m/CLionProjects/Labs/Lab2/Tepljukh & Stasinchuk/H
 CMakeFiles/paralel_integrals.dir/all:
 	$(MAKE) -f CMakeFiles/paralel_integrals.dir/build.make CMakeFiles/paralel_integrals.dir/depend
 	$(MAKE) -f CMakeFiles/paralel_integrals.dir/build.make CMakeFiles/paralel_integrals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/d1md1m/CLionProjects/Labs/Lab2/Tepljukh & Stasinchuk/HW_alpha_prerelease/CMakeFiles" --progress-num=1,2 "Built target paralel_integrals"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/d1md1m/CLionProjects/Lab2Check/Labs/Tepljukh & Stasinchuk/HW_alpha_prerelease/CMakeFiles" --progress-num=1,2 "Built target paralel_integrals"
 .PHONY : CMakeFiles/paralel_integrals.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/paralel_integrals.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paralel_integrals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/d1md1m/CLionProjects/Labs/Lab2/Tepljukh & Stasinchuk/HW_alpha_prerelease/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/d1md1m/CLionProjects/Lab2Check/Labs/Tepljukh & Stasinchuk/HW_alpha_prerelease/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paralel_integrals.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/d1md1m/CLionProjects/Labs/Lab2/Tepljukh & Stasinchuk/HW_alpha_prerelease/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/d1md1m/CLionProjects/Lab2Check/Labs/Tepljukh & Stasinchuk/HW_alpha_prerelease/CMakeFiles" 0
 .PHONY : CMakeFiles/paralel_integrals.dir/rule
 
 # Convenience name for target.
