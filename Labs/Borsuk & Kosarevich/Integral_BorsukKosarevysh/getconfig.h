@@ -35,7 +35,7 @@ T Configs::get_value(const std::string &param) {
     std::string result = find(param);
     std::stringstream stream(result);
     T val;
-    if (stream >> val && stream.eof()) {
+    if (stream >> val ) {
         return val;
     }
     throw "Invalid arguments for: " + param;

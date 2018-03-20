@@ -1,4 +1,4 @@
-# Install script for directory: /home/d1md1m/CLionProjects/Lab2Check/Labs/Tepljukh & Stasinchuk/HW_alpha_prerelease
+# Install script for directory: /home/d1md1m/CLionProjects/Lab2Check/Labs/Tepljukh___Stasinchuk/HW_alpha_prerelease
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

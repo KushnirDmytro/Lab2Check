@@ -4,9 +4,9 @@ from platform import platform
 
 
 alpha = 0.0001
-simple_integral_filename = "cmake-build-release\simple_integral.exe" if platform().startswith("Windows") else "cmake-build-release/simple_integral"
-integral_filename = "cmake-build-release\integral.exe" if platform().startswith("Windows") else "cmake-build-release/integral"
-config_filename = "configs\config.txt"
+simple_integral_filename = "cmake-build-release/simple_integral.exe" if platform().startswith("Windows") else "cmake-build-release/simple_integral"
+integral_filename = "cmake-build-release/integral.exe" if platform().startswith("Windows") else "cmake-build-release/integral"
+config_filename = "configs/config.txt"
 n_threads = list(range(1, 6))
 
 
