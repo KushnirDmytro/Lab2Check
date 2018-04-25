@@ -5,6 +5,7 @@
 #include <thread>
 #include <mutex>
 
+
 namespace std {
     std::ostream &operator<<(std::ostream &os, const std::pair<double, double> &pair) {
         os << pair.first << " " << pair.second;

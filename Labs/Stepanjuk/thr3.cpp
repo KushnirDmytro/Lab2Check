@@ -19,7 +19,6 @@ double func3(int x, int y){
 }
 
 
-
 double integral(int x, int y){
 	int nb, mb = 1000;
 	double sum = 0;
