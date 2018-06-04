@@ -32,7 +32,17 @@ double f(double x1, double x2){
     return -20*exp(-0.2*sqrt(0.5*(pow(x1,2)+pow(x2,2))))-exp(0.5*(cos(2*PI*x2)+cos(2*PI*x1)))+20+exp(1);
 }
 
-void loopp(double step, double start, double end, double start_x, double end_x, long *step_result, std::mutex &m){
+double f2(double x1, double x2){
+    double sum=0;
+    for(int i=-2;i<=2;++i){
+        for(int j=-2;j<=2;++j){
+            sum += 1.0/(5*(i+2)+j+3+pow(x1-16*j,6)+pow(x2-16*j,6));
+        }
+    }
+    return 1.0/(0.002+sum);
+}
+
+void loo    pp(double step, double start, double end, double start_x, double end_x, double *step_result, std::mutex &m){
     double dot_sum = 0;
     for(double y=start; y<end; y+=step)
         for(double x=start_x; x<=end_x; x+=step)
@@ -101,25 +111,22 @@ int main(int argc, char* argv[]) {
     std::mutex m;
     //for(int number_of_threads=1;number_of_threads<=4;++number_of_threads){
         
-    long global_result = 0;
-    long division = 125;
-    long old_result = 0;
+    double global_result = 0;
+    double division = 125;
+    double old_result = 0;
     std::thread ar[number_of_threads];
     auto stage1_start_time = get_current_time_fenced();
     int counter = 0;
-    //bool should_start = true;
-    //while( fabs(old_result-global_result) > absolute_error || should_start ){
-    //    should_start = false;
+    
     while(true){
         if(counter>13){
             //exceeded million divisions
             break;
         }
         ++counter;
-		std::cout << '.' << std::flush;
         
         if(old_result != 0){
-            if((double)old_result/(double)global_result > 1-relative_error || (double)global_result/(double)old_result > 1-relative_error){
+            if(old_result/global_result > 1-relative_error || global_result/old_result > 1-relative_error){
                 if(fabs(old_result-global_result) < absolute_error){
                     break;
                 }
@@ -130,13 +137,14 @@ int main(int argc, char* argv[]) {
         //std::cout << old_result << " " << global_result << std::endl;
         old_result = global_result;
         
-        double step = (max_y-min_y)/(double)division;
+        double step = (max_y-min_y)/division;
         double area = step*step;
         
     
         for(int i=0; i<number_of_threads; ++i){
-            //(2*i-t)*(max_y-min_y)/2/t;i*200/number_of_threads-100
-            ar[i] = std::thread(loopp, step, (int)((2*i-number_of_threads)*(max_y-min_y)/2/number_of_threads), (int)((2*(i+1)-number_of_threads)*(max_y-min_y)/2/number_of_threads), min_x, max_x, &global_result, std::ref(m));
+            int start = ((2*i-number_of_threads)*(max_y-min_y)/2/number_of_threads);
+            int end = ((2*(i+1)-number_of_threads)*(max_y-min_y)/2/number_of_threads);
+            ar[i] = std::thread(loopp, step, start, end, min_x, max_x, &global_result, std::ref(m));
         }
         
         for(int i=0; i<number_of_threads; ++i){
