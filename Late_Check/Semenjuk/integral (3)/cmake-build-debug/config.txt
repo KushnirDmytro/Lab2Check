@@ -1,0 +1,9 @@
+n=500
+numberOfThreads=16
+expected_value=857208.2414
+expected_absolute_error=0.0001;
+expected_relative_error=0.000000001;
+x_lower_interval=-100
+x_upper_interval=100
+y_lower_interval=-100
+y_upper_interval=100
